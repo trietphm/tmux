@@ -23,8 +23,8 @@ get_percent()
 		;;
 		
 		Darwin)
-			percent=$(ps -A -o %cpu | awk '{s+=$1} END {print s "%"}')
-			echo $percent
+			percent=$(python -c 'import psutil; print(psutil.cpu_percent(interval=1))')
+			echo "$percent %"
 		;;
 
 		CYGWIN*|MINGW32*|MSYS*|MINGW*)

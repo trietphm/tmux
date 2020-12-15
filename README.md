@@ -8,6 +8,12 @@
 
 All instructions can be found at [draculatheme.com/tmux](https://draculatheme.com/tmux).
 
+**Note**: Different from head project at https://github.com/dracula/tmux
+Need to install `psutil` in order to get correct CPU number in MacOS (python is required).
+```
+pip install psutil
+```
+
 ## Configuration
 
 Configuration and options can be found at [draculatheme.com/tmux](https://draculatheme.com/tmux).
@@ -39,8 +45,8 @@ FreeBSD compatibility is in development
 This theme is maintained by the following person(s) and a bunch of [awesome contributors](https://github.com/dracula/tmux/graphs/contributors).
 
 [![Dane Williams](https://avatars2.githubusercontent.com/u/22798229?s=70&v=4",)](https://github.com/danerwilliams) | [![Ethan Edwards](https://avatars1.githubusercontent.com/u/60861925?s=70&v=4)](https://github.com/ethancedwards8) |
---- | --- | 
-[Dane Williams](https://github.com/danerwilliams) | [Ethan Edwards](https://github.com/ethancedwards8) | 
+--- | --- |
+[Dane Williams](https://github.com/danerwilliams) | [Ethan Edwards](https://github.com/ethancedwards8) |
 
 ## License
 
