@@ -9,8 +9,8 @@ display_location()
 {
 	if $location; then
 		city=$(curl -s https://ipinfo.io/city 2> /dev/null)
-		region=$(curl -s https://ipinfo.io/region 2> /dev/null)
-		echo " $city, $region"
+		#region=$(curl -s https://ipinfo.io/region 2> /dev/null)
+		echo " $city"
 	else
 		echo ''
 	fi
